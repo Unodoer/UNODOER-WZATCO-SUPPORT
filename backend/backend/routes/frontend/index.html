@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNODOER Support</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>UNODOER Support Chat</h1>
+
+  <div id="chatbox">
+    <div id="messages"></div>
+    <input type="text" id="userInput" placeholder="Ask a question..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <h2>Raise a Ticket</h2>
+  <form id="ticketForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="issue" placeholder="Describe your issue..." required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
